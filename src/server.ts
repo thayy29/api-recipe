@@ -23,8 +23,8 @@ app.register(fastifyCors, {
 app.register(fastifySwagger, {
   openapi: {
     info: {
-      title: 'Webhook Inspector API',
-      description: 'API for capturing and inspectings webhooks requests',
+      title: 'API Recipe',
+      description: 'API for generating recipes',
       version: '1.0.0',
     },
   },
